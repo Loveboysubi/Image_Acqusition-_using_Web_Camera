@@ -35,7 +35,7 @@ import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
 while(True):
     ret,frame=viedoCaptureObject.read()
-    cv2.imwrite("riya_image.jpg",frame)
+    cv2.imwrite("subi_image.jpg",frame)
     result=False
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
@@ -46,7 +46,7 @@ import cv2
 cap=cv2.VideoCapture(0)
 while True:
     ret,frame=cap.read()
-    cv2.imshow('Riya',frame)
+    cv2.imshow('subi',frame)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
